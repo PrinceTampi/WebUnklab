@@ -1,4 +1,4 @@
-/* stylesheet.css */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -32,7 +32,7 @@ nav a:hover {
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Diubah dari flex-start ke center */
+    align-items: center;
     margin: 20px auto;
     width: 90%;
     max-width: 1200px;
@@ -68,7 +68,7 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-height: 100%;
     overflow-y: auto;
-    margin-top: 20px; /* Tambahkan margin-top jika diperlukan */
+    margin-top: 20px;
 }
 
 .speaker-logo {
@@ -152,13 +152,4 @@ nav a:hover {
     width: 100px; 
     height: 50px;
     vertical-align: middle;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
 }
