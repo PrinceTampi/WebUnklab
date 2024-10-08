@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;  
+}
+
+body {
+    display: flex;          
+    flex-direction: column;   
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+nav {
+    background-color: #6d9def;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; 
+}

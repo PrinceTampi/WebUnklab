@@ -1,0 +1,164 @@
+/* stylesheet.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2{
+    text-align: center;
+    padding-left: 00px;
+}
+
+nav {
+    background-color: #6d9def;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Diubah dari flex-start ke center */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.content {
+    width: 70%;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.announcement-section {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 100%;
+    overflow-y: auto;
+    margin-top: 20px; /* Tambahkan margin-top jika diperlukan */
+}
+
+.speaker-logo {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+.announcement-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.announcement-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-section ul li {
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.announcement-section ul li:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .content {
+        width: 100%; 
+        padding-right: 0;
+    }
+    
+    .announcement-section {
+        width: 100%; 
+        margin-top: 20px;
+        max-height: none; 
+    }
+}
+.VideoPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.program-Study {
+    background-color: #6d9def;
+    padding: 20px;
+}
+
+.program-Study h1,
+.program-Study h2,
+.program-Study p {
+    text-align: center;
+}
+
+.tabel-study {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabel-study td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.imgDaftar {
+    width: 100px; 
+    height: 50px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
